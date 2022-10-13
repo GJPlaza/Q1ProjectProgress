@@ -1,0 +1,148 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-image: linear-gradient(#FF3131, #1F51FF);
+}
+
+#id{
+  float: left;
+  font-size: 15px;
+}
+.clearfix{
+  overflow: auto;
+}
+.table{
+  padding: 50px;
+  float: right;
+  border: 10px solid black;
+}
+.rating {
+  margin-left: 102.5px;
+  margin-right: 102.5px;
+  padding: 5px;
+  border: 5px solid black;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: white;
+
+ }
+
+table, th, td{
+  padding: 25px;
+  border: 1px solid black;
+}
+.imglogo{
+  height:60px;
+  width:60px;
+  margin-left:30px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.title{
+  text-align: center;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: 102.5px;
+  margin-right: 102.5px;
+}
+h3{
+  text-align: center;
+
+}
+.footer{
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.navbar{
+  text-decoration:none;
+  float:right;
+  margin-right:15px;
+  color:black;
+}
+
+.navbar:hover {
+  color: seagreen;
+}
+
+.active{
+  color:green;
+}
+
+.pic1{
+  width: 100%;
+  height: 350px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.desc{
+  margin-left: 102.5px;
+  margin-right: 102.5px;
+  padding: 5px;
+  border: 5px solid black;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: white;
+
+}
+
+#col1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 480px;
+  border: 5px solid black;
+  border-radius: 15px;
+  background-color: white;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 157.5px;
+  border: 5px solid black;
+  border-radius: 15px;
+  background-color: white;
+
+}
+
+.column:hover{
+  background-color: #B2FFFF;
+}
+#col1:hover{
+  background-color: #B2FFFF;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.pic{
+  width: 85%;
+  height: 500px;
+  margin-left: 102.5px;
+  padding: 5px;
+  border: 10px solid black;
+  border-radius: 15px;
+  background-color: ghostwhite;
+}
+h1{
+  text-align: center;
+}
+
+nav{
+overflow: auto;
+background-color:#B2FFFF;
+padding-top:20px;
+padding-bottom:10px;
+}
